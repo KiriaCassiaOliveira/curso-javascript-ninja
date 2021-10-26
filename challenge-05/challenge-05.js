@@ -81,24 +81,24 @@ function book (nomeLivro){
 Usando a função criada acima, imprima o objeto com todos os livros.
 */
 console.log(book('livro'))
-
+var nameLivros = ''
 /*
 Ainda com a função acima, imprima a quantidade de páginas de um livro qualquer,
 usando a frase:
 "O livro [NOME_DO_LIVRO] tem [X] páginas!"
 */
-console.log(`o livro1 tem  ${book('nomeLivro2').autor}`)
+console.log(`o ${nameLivros} tem  ${book('nomeLivro2').quantidadePaginas}`)
 // console.log('o livro livro1 ' + book('nomeLivro1')['quantidadePaginas'] + 'páginas' )
 /*
 Ainda com a função acima, imprima o nome do autor de um livro qualquer, usando
 a frase:
 "O autor do livro [NOME_DO_LIVRO] é [AUTOR]."
 */
-// ?
+console.log(`o ${nameLivros} tem  ${book('nomeLivro2').autor}`)
 
 /*
 Ainda com a função acima, imprima o nome da editora de um livro qualquer, usando
 a frase:
 "O livro [NOME_DO_LIVRO] foi publicado pela editora [NOME_DA_EDITORA]."
 */
-// ?
+console.log(`o ${nameLivros} tem  ${book('nomeLivro2').editora}`)
